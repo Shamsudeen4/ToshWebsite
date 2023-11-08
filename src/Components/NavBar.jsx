@@ -7,7 +7,7 @@ function NavBar() {
     <div>
       <img className='absolute' src={blurr} alt="" />
     </div>
-    <div className='navbar flex items-center justify-around py-9 '>
+    <div className='navbar flex items-center justify-around py-5 '>
       <div>
         <img src={logo} alt="toshlogo" />
       </div>
