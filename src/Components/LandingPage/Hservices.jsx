@@ -4,8 +4,8 @@ import slogo from '../Images/homepage/Group 4.png'
 import tlogo from '../Images/homepage/Group 4.png'
 function Hservices() {
   return (
-    <div className='bg-[#FEF3C780] justify-center flex flex-col w-[100%] h-[100vh] items-center'>
-    <div className=' flex flex-col gap-20 items-start justify-center'> 
+    <div className='bg-[#FEF3C780] justify-center flex flex-col w-[100%] h-[100vh] items-center '>
+    <div className=' flex flex-col gap-20 items-start justify-center m-44'> 
       <div className='flex flex-col gap-3'>
         <h3 className='text-[#FB9B02] font-raleway font-semibold text-[20px]'>Courses</h3>
         <h1 className='text-[40px] font-raleway font-semibold'>Our Services</h1>

@@ -5,20 +5,20 @@ import blurr from './Images/homepage/blurr.png'
 import ndblur from './Images/homepage/ndblur.png'
 function Footer() {
   return (
-    <div className=''>
-        <div className='absolute'>
+    <div className='flex flex-col sm:items-center sm:justify-centers sm:p-12'>
+        <div className='absolute sm:hidden'>
             <img src={blurr} alt="" />
         </div>
-    <div className='flex items-center justify-center  gap-10 flex-col font-raleway py-20'>
+    <div className='flex items-center justify-center  gap-10 flex-col font-raleway 2xl:py-12'>
       
-      <div className='flex justify-between gap-[740px] items-center'>
+      <div className='flex 2xl:justify-between 2xl:gap-[740px] items-center sm:flex-col sm:gap-[20px] sm:items-start'>
         <div><img src={logo} alt="" /></div>
         <div><img src={logos} alt="" /></div>
       </div>
       
-      <div className='flex items-start gap-[80px]'>
-        <div className='flex flex-col gap-48'>
-        <div className='flex flex-col  justify-center gap-7'>
+      <div className='flex items-start gap-[80px] sm:flex-col'>
+        <div className='flex flex-col gap-48 sm:hidden'>
+        <div className='flex flex-col  justify-center gap-7 '>
             <div><h2 className='font-bold text-[20px]'>Contact</h2></div>
             <div className='flex flex-col gap-3'>
                 <h4 className='w-[19vw] '>Address: &nbsp;&nbsp;&nbsp;&nbsp; block 20 
@@ -72,8 +72,8 @@ function Footer() {
       </div>
      
     </div>
-    <div className='relative w-[100%]'>
-           <img className='absolute bottom-5 left-[1060px]' src={ndblur} alt="" />
+    <div className='relative w-[100%] sm:hidden'>
+           <img className='absolute bottom-0 -right-0' src={ndblur} alt="" />
         </div>
     </div>
    

@@ -1,0 +1,33 @@
+*{  
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.image{
+    animation: bounce 5s infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(50%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@media screen and (max-width:950px) {
+    .first{
+        flex-direction: column;
+        gap: 70px;
+        padding-top: 100px;
+    }
+    .ninth img{
+        width: 40vw;
+    }
+    .sixth{
+        flex-direction: column;
+        width: 20vw;
+    }
+}

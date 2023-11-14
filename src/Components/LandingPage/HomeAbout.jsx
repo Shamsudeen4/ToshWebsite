@@ -1,8 +1,8 @@
 import React from 'react'
-import image2 from '../Images/homepage/Rectangle 86.png'
+import image2 from '../Images/homepage/sstab.png'
 function HomeAbout() {
   return (
-    <div className='flex items-center justify-center h-[100vh] gap-16'>
+    <div className='2xl:flex 2xl:items-center 2xl:justify-center 2xl:h-[100vh] 2xl:gap-16 2xl:m-24'>
       <div>
         <img src={image2} alt="" />
       </div>
