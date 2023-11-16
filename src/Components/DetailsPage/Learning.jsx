@@ -9,27 +9,27 @@ function Learning() {
           <h2 className='ml-5'>WHAT YOU’LL LEARN</h2>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>HTML</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>CSS</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" /> 
+          <img className='lg:w-5' src={mark} alt="" /> 
           <h5>Javascript</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>React jS</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>Tailwind CSS</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>Bootstrap</h5>
         </div>
       </div>
@@ -39,27 +39,27 @@ function Learning() {
           <h2 className='ml-5'>COURSE BENEFITS</h2>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>Project Handoff</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>Community Collaboration</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" /> 
+          <img className='lg:w-5' src={mark} alt="" /> 
           <h5>Group Project</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>Expert Instructors</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5 sm: w-5' src={mark} alt="" />
           <h5>Access to real life project</h5>
         </div>
         <div className='flex gap-4 font-bold'>
-          <img className='w-5' src={mark} alt="" />
+          <img className='lg:w-5' src={mark} alt="" />
           <h5>Job Opportunity</h5>
         </div>
       </div>

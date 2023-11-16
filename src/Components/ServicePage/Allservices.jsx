@@ -17,10 +17,10 @@ function Allservices() {
                consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
             </p>
         </div>
-        <div className='Services grid lg:grid-cols-3'>
+        <div className='Services grid grid-cols-3 sm:grid-cols-1'>
               {/* //////////////////Services 1////////////////////////// */}
           <div className='flex flex-col w-[90%] mt-20 sm: ml-[10%] gap-3'>
-            <div><img className='w-[80%]' src={p1} alt="" /></div>          
+            <div><img className='lg:w-[80%]' src={p1} alt="" /></div>          
             <h1 className='font-bold lg:text-[20px] '>MOBILE APP DEVELOPMENT</h1>
             <h6 className='text-[gray] w-[90%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Eget aenean accumsan bibendum gravida maecenas augue. Lorem 
@@ -30,7 +30,7 @@ function Allservices() {
           </div>
              {/* //////////////////Services 2////////////////////////// */}
           <div className='flex flex-col w-[80%] mt-20 sm: ml-[10%] gap-3'>
-            <div><img className='w-[90%]' src={p2} alt="" /></div>          
+            <div><img className='lg:w-[80%]' src={p2} alt="" /></div>          
             <h1 className='font-bold lg:text-[20px] '>WEBSITE DEVELOPMENT</h1>
             <h6 className='text-[gray] w-[90%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Eget aenean accumsan bibendum gravida maecenas augue. Lorem 
@@ -40,7 +40,7 @@ function Allservices() {
           </div>
             {/* //////////////////Services 3////////////////////////// */}
           <div className='flex flex-col w-[80%] mt-20 sm: ml-[10%] gap-3'>
-            <div><img className='w-[90%]' src={p3} alt="" /></div>          
+            <div><img className='lg:w-[90%]' src={p3} alt="" /></div>          
             <h1 className='font-bold lg:text-[20px] '>UI/UX DESIGN</h1>
             <h6 className='text-[gray] w-[90%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Eget aenean accumsan bibendum gravida maecenas augue. Lorem 
@@ -51,7 +51,7 @@ function Allservices() {
 
             {/* //////////////////Services 4////////////////////////// */}
           <div className='flex flex-col w-[80%] mt-20 sm: ml-[10%] gap-3'>
-            <div><img className='w-[90%]' src={p6} alt="" /></div>          
+            <div><img className='lg:w-[90%]' src={p6} alt="" /></div>          
             <h1 className='font-bold lg:text-[20px] '>SOCIAL MEDIA MANAGEMENT</h1>
             <h6 className='text-[gray] w-[90%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Eget aenean accumsan bibendum gravida maecenas augue. Lorem 
@@ -62,7 +62,7 @@ function Allservices() {
 
             {/* //////////////////Services 5///////////////////////// */}
           <div className='flex flex-col w-[80%] mt-20 sm: ml-[10%] gap-3'>
-            <div><img className='w-[90%]' src={p5} alt="" /></div>          
+            <div><img className='lg:w-[80%]' src={p5} alt="" /></div>          
             <h1 className='font-bold lg:text-[20px] '>SOFTWARE DEVELOPMENT</h1>
             <h6 className='text-[gray] w-[90%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Eget aenean accumsan bibendum gravida maecenas augue. Lorem 
@@ -73,7 +73,7 @@ function Allservices() {
 
             {/* //////////////////Services 6////////////////////////// */}
           <div className='flex flex-col w-[80%] mt-20 sm: ml-[10%] gap-3'>
-            <div><img className='w-[90%]' src={p6} alt="" /></div>          
+            <div><img className='lg:w-[80%]' src={p6} alt="" /></div>          
             <h1 className='font-bold lg:text-[20px] '>DIGITAL MARKETING</h1>
             <h6 className='text-[gray] w-[90%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Eget aenean accumsan bibendum gravida maecenas augue. Lorem 
@@ -84,7 +84,7 @@ function Allservices() {
 
             {/* //////////////////Services 7////////////////////////// */}
           <div className='flex flex-col w-[80%] mt-20 sm: ml-[10%] gap-3'>
-            <div><img className='w-[90%]' src={p7} alt="" /></div>          
+            <div><img className='lg:w-[80%]' src={p7} alt="" /></div>          
             <h1 className='font-bold lg:text-[20px] '>SEO MANAGEMENT</h1>
             <h6 className='text-[gray] w-[90%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                Eget aenean accumsan bibendum gravida maecenas augue. Lorem 

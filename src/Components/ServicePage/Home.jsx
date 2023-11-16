@@ -7,7 +7,7 @@ function Home() {
       <h1 className='lg:text-[40px] font-bold'>We Believe In Innovation And Creativities</h1>
       <div className='flex gap-4 items-center justify-center'>
         <a href="/">home</a>
-            <h6> > </h6>
+            <h6> {'>'} </h6>
         <a href="/">courses</a>
       </div>      
     </div>

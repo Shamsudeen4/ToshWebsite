@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Coursepage from './Components/CoursePage/Coursepage.js';
 import NavBar from './Components/NavBar.jsx';
@@ -9,11 +8,9 @@ import Detailspage from './Components/DetailsPage/Detailspage.js';
 import Formpage from './Components/Formpage.jsx';
 import Frame from './Components/Frame.jsx';
 
-=======
-import NavBar from './Components/NavBar.jsx';
+// import NavBar from './Components/NavBar.jsx';
 import Footer from './Components/Footer.jsx'
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './Components/LandingPage/Homepage.jsx';
 import Homepagee from './Components/LandingPage/Hompage.js'
 import Logos from './Components/LandingPage/Logostab.jsx'
@@ -64,13 +61,11 @@ import Mdpostjob from './Components/LandingPage/Mdpostjob.jsx';
 import Mdprofile from './Components/LandingPage/Mdprofile.jsx';
 import Mdcreatepj from './Components/LandingPage/Mdcreatepj.jsx';
 import Mdhome from './Components/LandingPage/Mdhome.jsx';
->>>>>>> 95585f1f892f1b619ed03c768745ce9df4a6f70f
 function App() {
   return (
     <div className="App">
      <BrowserRouter>
      <Routes>
-<<<<<<< HEAD
       <Route path='/' element={<NavBar/>} />
       <Route path='/Coursepage' element={<Coursepage/>}/>
       <Route path='/Servicepage' element={<Servicepage/>}/>
@@ -79,7 +74,6 @@ function App() {
       <Route path='/Detailspage' element={<Detailspage/>}/>
       <Route path='/Formpage' element={<Formpage/>}/>
       <Route path='/Frame' element={<Frame/>}/>
-=======
       <Route path='/nav' element={<NavBar/>} />
       <Route path='/footer' element={<Footer/>} />
       <Route path='/homepage' element={<Homepage/>} />
@@ -133,7 +127,6 @@ function App() {
       <Route path='/mdcpj' element={<Mdcreatepj/>} />
       <Route path='/mdhome' element={<Mdhome/>} />
 
->>>>>>> 95585f1f892f1b619ed03c768745ce9df4a6f70f
      </Routes>
      </BrowserRouter>
     </div>

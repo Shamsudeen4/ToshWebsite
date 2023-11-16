@@ -15,7 +15,7 @@ function Benefit() {
         </p>
     </div>
 
-    <div className='lg:ml-[%] lg:flex  justify-center sm:gap-10'>
+    <div className='lg:ml-[%] flex  justify-center sm:gap-10 sm:flex-col'>
         <div className='LearningPlaces flex items-center mt-[10%] lg:w-[25%] border-[#F8E7F8]-500 sm: w-[90%] sm: ml-[4%]  p-4 gap-8 shadow-md'>
             {/* <div> */}
               <img className='w- pb-5' src={p1} alt="" />

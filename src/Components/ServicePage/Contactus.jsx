@@ -9,7 +9,7 @@ function Contactus() {
     <div className='flex items-center flex-col justify-center gap-12 py-8'>
       <div className='flex flex-col gap-5 ml-[%]'>
         <h3 className='font-bold'>Our Trusted Clients</h3>
-        <div className='gap-7 lg:flex items-center'>
+        <div className='gap-7 flex items-center sm:flex-col'>
             <img src={pat1} alt="" />
             <img src={pat2} alt="" />
             <img src={pat3} alt="" />

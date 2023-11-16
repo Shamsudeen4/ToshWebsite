@@ -2,7 +2,7 @@ import React from 'react'
 import c1 from '../Images/coursepage/Rectangle 66 (2).png'
 import c2 from '../Images/coursepage/Rectangle 66 (1).png'
 import c3 from '../Images/coursepage/Rectangle 66.png'
-import c4 from '../Images/homepage/Rectangle 32.png'
+import c4 from '../Images/homepage/Rectangle 138.png'
 
 
 function Allcourses() {
@@ -16,7 +16,7 @@ function Allcourses() {
                Eget aenean accumsan bibendum gravida maecenas augue.</p>
         </div>
         {/* ////////////////////FRONT END SECTION///////// */}
-        <div className='courses lg:flex ml-[12%]  items-center mt-[5%] gap-[70px]'>        
+        <div className='courses lg:flex lg:ml-[12%] sm: ml-[4%]  items-center mt-[5%] gap-[70px]'>        
             <img className='lg:h-[40vh]' src={c1} alt="" />        
           <div className='flex flex-col gap-5 '>
             <h1 className='font-bold'>FRONT-END DEVELOPMENT</h1>
@@ -38,7 +38,7 @@ function Allcourses() {
           </div>
         </div>
         {/* ////////////////////BACK END SECTION///////// */}
-        <div className='courses lg:flex ml-[12%]  items-center mt-[5%] gap-[70px]'>        
+        <div className='courses lg:flex lg:ml-[12%] sm: ml-[4%]  items-center mt-[5%] gap-[70px]'>        
             <img className='lg:h-[40vh]' src={c2} alt="" />        
           <div className='flex flex-col gap-5 '>
             <h1 className='font-bold'>bACK-END DEVELOPMENT</h1>
@@ -61,7 +61,7 @@ function Allcourses() {
         </div>
 
         {/* ////////////////////PYTHON SECTION///////// */}
-        <div className='courses lg:flex ml-[12%]  items-center mt-[5%] gap-[70px]'>        
+        <div className='courses lg:flex lg:ml-[12%] sm: ml-[4%] items-center mt-[5%] gap-[70px]'>        
             <img className='lg:h-[40vh]' src={c3} alt="" />        
           <div className='flex flex-col gap-5 '>
             <h1 className='font-bold'>PYTHON FULL-STACK DEVELOPMENT</h1>
@@ -84,8 +84,8 @@ function Allcourses() {
         </div>
 
         {/* ////////////////////  UI/UX SECTION///////// */}
-        <div className='courses lg:flex ml-[12%]  items-center mt-[5%] gap-[70px]'>        
-            <img className='lg:h-[40vh] w-[25%] ' src={c4} alt="" />        
+        <div className='courses lg:flex lg:ml-[12%] sm: ml-[4%] items-center mt-[5%] gap-[70px]'>        
+            <img className='lg:h-[40vh] lg:w-[25%] ' src={c4} alt="" />        
           <div className='flex flex-col gap-5 '>
             <h1 className='font-bold'>UI/UX DESIGNT</h1> 
             <h6 className='text-gray-400 lg:w-[50%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan 
