@@ -11,7 +11,7 @@ function Cfirst() {
       </div>
       <div className='flex bg-[white] px-[20px] py-[20px] gap-2 rounded-[15px]'>
         <img src={slogo} alt="" />
-         <input className='h-[3vh] w-[20vw]' type="text" placeholder='Search Blog' />   
+         <input className='h-[3vh] w-[20vw] sm:w-[60vw]' type="text" placeholder='Search Blog' />   
       </div>
       <img src={blurr} className='absolute right-0 -top-2 w-96' alt="" />
     </div>

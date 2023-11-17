@@ -1,14 +1,14 @@
 import React from 'react'
 import MdNavbar from './MdNavbar'
-import MdBlogpost from './MdBlogpost'
+import Mdcreatepj from './Mdcreatepj'
 
-function MdBlog() {
+function MdCreate() {
   return (
     <div>
       <MdNavbar/>
-      <MdBlogpost/>
+      <Mdcreatepj/>
     </div>
   )
 }
 
-export default MdBlog
+export default MdCreate

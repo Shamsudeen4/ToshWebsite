@@ -12,7 +12,7 @@ function Homepage() {
       <div className='second flex flex-col 2xl:gap-12 sm:gap-7 '>
        <div className='third flex flex-col 2xl:gap-5 sm:gap-4'>
          <h1 className='fourth capitalize 2xl:text-[45px] 2xl:w-[32vw] sm:w-[80vw] font-bold 2xl:leading-[50px] leading-[32px] sm:text-[27px]'>access the dream courses of your career.</h1>
-         <h3 className='fifth capitalize 2xl:text-[20px] sm:text-[14px] sm:w-[85vw] sm:text-[#00000080] sm:font-poppins '>flexible learning and innovation to get started in tech.</h3>
+         <h3 className='fifth capitalize 2xl:text-[20px] sm:text-[14px] sm:w-[85vw] sm:text-[#00000080] sm:font-poppins font-semibold '>flexible learning and innovation to get started in tech.</h3>
         </div>
         <div className='sixth flex 2xl:gap-5 sm:flex-col sm:gap-4'>
         <button className='seventh  bg-[#FB9B02] border-[1px] border-solid border-[#FB9B02] py-3 px-6 rounded-[15px] text-[white] text-[15px] font-semibold hover:bg-transparent hover:text-[#FB9B02] transition duration-200 sm:w-[45vw]' >Get In Touch</button>

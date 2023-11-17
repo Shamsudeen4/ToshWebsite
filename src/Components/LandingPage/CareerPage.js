@@ -8,7 +8,7 @@ import Ndfooter from '../Ndfooter'
 
 function CareerPage() {
   return (
-    <div>
+    <div className='flex flex-col w-[100%] relative'>
       <NavBar/>
       <Cfirst/>
       <Csecond/>

@@ -1,14 +1,14 @@
 import React from 'react'
 import MdNavbar from './MdNavbar'
-import MdBlogpost from './MdBlogpost'
+import Mdprofile from './Mdprofile'
 
-function MdBlog() {
+function Mdpro() {
   return (
     <div>
       <MdNavbar/>
-      <MdBlogpost/>
+      <Mdprofile/>
     </div>
   )
 }
 
-export default MdBlog
+export default Mdpro

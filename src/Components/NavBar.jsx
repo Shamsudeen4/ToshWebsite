@@ -28,7 +28,7 @@ function NavBar() {
       </div>
       <div className=''>
         <ul className=' justify-between gap-6 font-raleway font-semibold hidden 2xl:flex '>
-            <li className='hover:text-[#FB9B02] transition duration-300 cursor-pointer '>Home </li>
+            <li className=' cursor-pointer  '> <a href='/career' target="_blank" rel="noopener noreferrer" className='hover:text-[#FB9B02] transition duration-300 active:text-[blue]'>Home</a> </li>
             <li className='hover:text-[#FB9B02] transition duration-300 cursor-pointer'>About</li>
             <li className='hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Courses</li>
             <li className='hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Services</li>
@@ -45,7 +45,7 @@ function NavBar() {
         <div className={`transition duration-300 transform ${rotate ? 'rotate-60' : '' }  w-[25px] h-[2px] m-[5px] bg-black`}></div>
       </div>
     </div>
-    <div className='mobile 2xl:hidden absolute'>
+    <div className='mobile 2xl:hidden relative'>
     <ul  className={` ${showNav ? 'block' : 'hidden'}  flex flex-col items-center justify-center bg-[#C12DC1] font-raleway gap-[10px]`}>
             <li className='hover:text-[black] text-[white] hover:bg-[#FB9B02] w-[100vw] text-center p-[15px] uppercase transition duration-300 cursor-pointer  '><Link to="/homepage"> Home</Link> </li>
             <li className='hover:text-[black] text-[white] hover:bg-[#FB9B02] w-[100vw] text-center p-[15px] uppercase transition duration-300 cursor-pointer'> <Link to="/habout">About</Link> </li>
@@ -53,7 +53,7 @@ function NavBar() {
             <li className='hover:text-[black] text-[white] hover:bg-[#FB9B02] w-[100vw] text-center p-[15px] uppercase transition duration-300 cursor-pointer'>Services</li>
             <li className='hover:text-[black] text-[white] hover:bg-[#FB9B02] w-[100vw] text-center p-[15px] uppercase transition duration-300 cursor-pointer'>Career</li>
             <li className='hover:text-[black] text-[white] hover:bg-[#FB9B02] w-[100vw] text-center p-[15px] uppercase transition duration-300 cursor-pointer'>Contact</li>
-        </ul>z
+        </ul>
     </div>
     </div>
   )

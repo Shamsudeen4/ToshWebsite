@@ -14,6 +14,7 @@ function Hompage() {
   return (
     <div>
     <div className='sm:hidden relative w-[100%] h-[100vh] flex flex-col'>
+  
       <NavBar />
       <Homepage/>
       <Logostab />
@@ -23,6 +24,7 @@ function Hompage() {
       <Hreviews/>
       <Hbecome/>
       <Footer/>
+   
     </div>
     <div className='2xl:hidden  w-[100%] h-[100vh] flex flex-col'>
       <NavBar/>

@@ -2,16 +2,16 @@ import React from 'react'
 import st from '../Images/homepage/10.png'
 function NdBlogS() {
   return (
-    <div className='bg-[white] flex flex-col items-center justify-center w-[60vw] h-[140vh]'>
+    <div className='bg-[white] flex flex-col items-center justify-center w-[60vw] h-[140vh] sm:w-[100%] sm:h-[180vh]'>
       <div className='flex flex-col gap-[40px] px-[6%]'>
         <div className='flex flex-col gap-[20px]'>
-            <h1 className='font-raleway font-bold text-[25px] w-[25vw] leading-[30px]'>How To Use ChatGPT For 
+            <h1 className='font-raleway font-bold text-[25px] w-[25vw] leading-[30px] sm:w-[85vw]'>How To Use ChatGPT For 
                 UI/UX Design: 25 Examples
             </h1>
-            <img className='w-[60vw]' src={st} alt="" />
+            <img className='w-[60vw] sm:w-[100%]' src={st} alt="" />
         </div>
-        <div className=' font-poppins flex flex-col gap-[30px]'>
-            <h4 className='text-[#00000080] capitalize'>
+        <div className=' font-poppins flex flex-col gap-[30px] '>
+            <h4 className='text-[#00000080] capitalize sm:text-[15px]'>
             Instead of continuing 
             the endless debate “will AI 
             replace designers” let’s 
@@ -21,7 +21,7 @@ function NdBlogS() {
             become a huge support in 
             everyday tasks.
             </h4>
-            <h4 className='text-[#00000080] capitalize'>
+            <h4 className='text-[#00000080] capitalize sm:text-[15px]'>
             The topics that may be boosted 
             by the tool may surprise you. 
             In this post, you will see 
@@ -39,7 +39,7 @@ function NdBlogS() {
             1. Generate copy for a website 
             or section
             </h2>
-            <h4 className='text-[#00000080] capitalize'>
+            <h4 className='text-[#00000080] capitalize sm:text-[15px]'>
             Using “lorem ipsum” is very simple, 
             but the design still feels dummy. 
             The better way to visualize design 
@@ -55,7 +55,7 @@ function NdBlogS() {
         <h2 className='font-bold capitalize '>2. Get ideas for page layout 
             or wireframe
         </h2>
-            <h4 className='text-[#00000080] capitalize'>
+            <h4 className='text-[#00000080] capitalize sm:text-[15px]'>
 
             Tight deadline? Feeling stuck? 
             To unleash creativity and generate 
@@ -71,7 +71,7 @@ function NdBlogS() {
         <h2  className='font-bold capitalize '>3. Ideas to optimize your design 
             workflow
         </h2 >
-            <h4 className='text-[#00000080] capitalize'>
+            <h4 className='text-[#00000080] capitalize sm:text-[15px]'>
             If you are like me, you like to learn 
             new things and improve your skills. AI 
              may suggest you explore new ways of 

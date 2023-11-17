@@ -1,5 +1,5 @@
 import React from 'react'
-import Blogexp from './Blogexp'
+// import Blogexp from './Blogexp'
 import BlogPostt from './BlogPostt'
 import NavBar from '../NavBar'
 import Ndfooter from '../Ndfooter'
@@ -11,8 +11,8 @@ function BlogPost() {
     <div>
         <NavBar/>
      <BlogPostt/>
-     <Blogexp/> 
-    <div className='flex w-[100%] justify-center gap-[70px] p-[7%]'>
+     
+    <div className='flex w-[100%] justify-center gap-[70px] p-[7%] sm:flex-col sm:gap-[10px]'>
         <NdBlogS/>
         <NdBlogT/>
     </div>
