@@ -1,7 +1,8 @@
-
+import NavBar from './Components/NavBar.jsx';
+import Footer from './Components/Footer.jsx'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import Homepage from './Components/LandingPage/Homepage.jsx';
 import Homepagee from './Components/LandingPage/Hompage.js'
 
 import CareerPage from './Components/LandingPage/CareerPage.js';
@@ -34,12 +35,8 @@ import NavBar from './Components/NavBar.jsx';
 function App() {
   return (
     <div className="App">
-
      <BrowserRouter>
      <Routes>
-
-
-      <Route path='/' element={<Homepagee/>} />
       <Route path='/nav' element={<NavBar/>} />
       <Route path='/career' element={<CareerPage/>} />
       <Route path='/services' element={<ServicesPage/>} />
