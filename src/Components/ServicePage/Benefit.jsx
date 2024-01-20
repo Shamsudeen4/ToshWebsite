@@ -5,58 +5,57 @@ import p3 from '../Images/coursepage/Group 11.png'
 
 function Benefit() {
   return (
-    <div className='lg:flex flex-col'>
-    <div className='ml-[8%] flex-col lg:w-[45%] gap-1 flex mt-[10%]'>
-        <h5 className='text-[#FB9B02] font-bold'>Benefits</h5>
-        <h1 className='font-bold lg:text-[35px]'>The Purpose Of Hiring us </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <div className=' flex flex-col justify-center items-center w-[100%] '>
+    <div className='flex flex-col font-raleway items-start gap-[100px]'>
+    <div className=' flex-col lg:w-[45%] gap-1 flex mt-[10%]'>
+        <h5 className='text-[#FB9B02] font-semibold'>Benefits</h5>
+        <h1 className='font-semibold lg:text-[35px] sm:text-[25px]'>The Purpose Of Hiring us </h1>
+        <p className='text-[14px] w-[33vw] capitalize font-poppins sm:w-[85vw]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
            Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet, 
            consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
         </p>
     </div>
 
-    <div className='lg:ml-[%] flex  justify-center sm:gap-10 sm:flex-col'>
-        <div className='LearningPlaces flex items-center mt-[10%] lg:w-[25%] border-[#F8E7F8]-500 sm: w-[90%] sm: ml-[4%]  p-4 gap-8 shadow-md'>
-            {/* <div> */}
-              <img className='w- pb-5' src={p1} alt="" />
-            {/* </div> */}
+    <div className=' flex  justify-center gap-[30px] sm:gap-10 sm:flex-col'>
+        <div className=' flex border-[2px] border-solid border-[#F8E7F8] items-center gap-10 p-6 rounded-[15px]'>
+           
+              <img className='' src={p1} alt="" />
+          
           <div className='flex flex-col gap-3 '>
-            <h2 className='font-bold '>EXPERIENCE INSTRUCTORS</h2>
-            <h6 className='text-[gray]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <h2 className='font-semibold '>EXPERIENCE INSTRUCTORS</h2>
+            <h6 className='text-[#00000080] w-[16vw] text-[12px] font-poppins sm:w-[55vw] sm:font-semibold  sm:text-[10px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Eget aenean accumsan bibendum gravida maecenas augue.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit..
+            </h6>
+          </div>
+        </div>
+        <div className=' flex border-[2px] border-solid border-[#FEF3C7] items-center gap-10 p-6 rounded-[15px]'>
+           
+              <img className='' src={p2} alt="" />
+          
+          <div className='flex flex-col gap-3 '>
+            <h2 className='font-semibold '>WORKING EXPERIENCE</h2>
+            <h6 className='text-[#00000080] w-[16vw] text-[12px] font-poppins sm:w-[55vw] sm:font-semibold  sm:text-[10px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Eget aenean accumsan bibendum gravida maecenas augue.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit..
+            </h6>
+          </div>
+        </div>
+        <div className=' flex border-[2px] border-solid border-[#FEF3C7] items-center gap-10 p-6 rounded-[15px]'>
+           
+              <img className='' src={p3} alt="" />
+          
+          <div className='flex flex-col gap-3 '>
+            <h2 className='font-semibold '>COLLABORATIVE PROJECT</h2>
+            <h6 className='text-[#00000080] w-[16vw] text-[12px] font-poppins sm:w-[55vw] sm:font-semibold  sm:text-[10px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
              Eget aenean accumsan bibendum gravida maecenas augue.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit..
             </h6>
           </div>
         </div>
 
-        {/* //////////////////SECOND ///////// */}
-        <div className='LearningPlaces flex items-center lg:w-[25%] mt-[10%] border-[2px]-[#F8E7F8] sm: w-[90%] sm: ml-[4%] p-4 gap-8 shadow-md'>
-            {/* <div> */}
-              <img className='w- pb-5' src={p2} alt="" />
-            {/* </div> */}
-          <div className='flex flex-col gap-3 '>
-            <h2 className='font-bold '>EXPERIENCE INSTRUCTORS</h2>
-            <h6 className='text-[gray]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Eget aenean accumsan bibendum gravida maecenas augue.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-            </h6>
-          </div>
+   
         </div>
-
-        {/* //////////////THIRD SEC///////// */}
-        <div className='LearningPlaces flex items-center lg:w-[25%] mt-[10%] border-[2px]-[#F8E7F8] sm: w-[90%] sm: ml-[4%] p-4 gap-8 shadow-md'>
-            {/* <div> */}
-              <img className='w- pb-5' src={p3} alt="" />
-            {/* </div> */}
-          <div className='flex flex-col gap-3 '>
-            <h2 className='font-bold '>EXPERIENCE INSTRUCTORS</h2>
-            <h6 className='text-[gray]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Eget aenean accumsan bibendum gravida maecenas augue.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-            </h6>
-          </div>
-        </div>
-
       
     </div>
 </div>

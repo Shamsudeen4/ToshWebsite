@@ -22,15 +22,15 @@ function Ndfooter() {
         <div className='flex flex-col  justify-center gap-7'>
             <div><h2 className='font-bold text-[20px]'>Courses</h2></div>
             <div className='flex flex-col gap-3'>
-            <ul className='flex flex-col gap-3'>
-                <li>Front-End Development</li>
-                <li>Back-End Development</li>
-                <li>Mobile App Development</li>
-                <li>UI/UX Design</li>
-                <li>Python Full-Stack Development</li>
-                <li>Javascript Full-Stack Development</li>
-                <li>Courses For Children</li>
-                </ul>
+            <ul className='flex flex-col gap-3 z-50'>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Front-End Development</li>
+                <li  className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Back-End Development</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Mobile App Development</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>UI/UX Design</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Python Full-Stack Development</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Javascript Full-Stack Development</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Courses For Children</li>
+            </ul>
             </div>
         </div>
         <div className='sm:hidden'><h4>2023 copyright by toshconsult.</h4></div>
@@ -39,13 +39,13 @@ function Ndfooter() {
             <div><h2 className='font-bold text-[20px]'>Services</h2></div>
             <div>
             <ul className='flex flex-col gap-3'>
-                <li>Website Development</li>
-                <li>Mobile App Development</li>
-                <li>Digital Marketing</li>
-                <li>Software Development</li>
-                <li>UI/UX Design</li>
-                <li>SEO Management</li>
-                <li>Social Media Management</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Website Development</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Mobile App Development</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Digital Marketing</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Software Development</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>UI/UX Design</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>SEO Management</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Social Media Management</li>
                 </ul>
             </div>
         </div>
@@ -55,20 +55,20 @@ function Ndfooter() {
             <div><h2 className='font-bold text-[20px]'>About</h2></div>
             <div>
             <ul className='flex flex-col gap-3'>
-                <li>About Us</li>
-                <li>Contact Us</li>
-               <li>FAQ</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>About Us</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Contact Us</li>
+               <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>FAQ</li>
                 </ul>
             </div>
         </div>
         <div className='flex flex-col  justify-center gap-4'>
         <div><h2 className='font-bold text-[20px]'>Resources</h2></div>
             <div>
-                <ul className='flex flex-col gap-3'>
-                <li>Docs</li>
-                <li>Career</li>
-               <li>Blog</li>
-               <li>Post</li>
+                <ul className='flex flex-col gap-3 z-50'>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Docs</li>
+                <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Career</li>
+               <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Blog</li>
+               <li className=' hover:text-[#FB9B02] transition duration-300 cursor-pointer'>Post</li>
                 </ul>
             </div>
         </div>
@@ -87,7 +87,7 @@ function Ndfooter() {
            <img className='absolute -bottom-5 -right-0' src={ndblur} alt="" />
         </div>
         </div>
-        <div className='2xl:hidden capitalize'><h4>2023 copyright by toshconsult.</h4></div>
+        <div className='lg:hidden capitalize'><h4>2023 copyright by toshconsult.</h4></div>
     </div>
    
   )

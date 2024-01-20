@@ -6,7 +6,7 @@ function Sthird() {
     <div className='back flex flex-col gap-4 items-center justify-center bg-[#FEF3C780] py-32'>
         <div className='flex flex-col items-center justify-center gap-[80px]'>
             <div>
-      <h1 className=' capitalize font-raleway font-bold text-[45px] w-[34vw] text-center leading-[55px] sm:text-[35px] sm:w-[75vw] sm:leading-9'>we follow a simples process for our clients</h1>
+      <h1 className=' capitalize font-raleway font-bold text-[45px] w-[34vw] text-center leading-[55px] sm:text-[35px] sm:w-[75vw] sm:leading-9'>we follow a simple process for our clients</h1>
       </div>
       <div className='flex gap-[50px] sm:flex-col '>
       <div className='flex flex-col items-start gap-6'>

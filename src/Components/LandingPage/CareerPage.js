@@ -5,11 +5,17 @@ import Cthird from './Cthird'
 import Cfourth from './Cfourth'
 import NavBar from '../NavBar'
 import Ndfooter from '../Ndfooter'
-
+import { Helmet } from 'react-helmet'
 function CareerPage() {
   return (
     <div className='flex flex-col w-[100%] relative'>
-      <NavBar/>
+      <Helmet>  
+        <title>Career | Toshconsult Technologies Inc</title>  
+        
+        <meta name="description" content="Tutorial for React Helmet" />  
+        <meta name="theme-color" content="#E6E6FA" />  
+      </Helmet>  
+      <NavBar career="active" />
       <Cfirst/>
       <Csecond/>
       <Cthird/>

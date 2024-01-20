@@ -1,14 +1,17 @@
 import React from 'react'
+// import { Link } from 'react-router-dom'
 
 function Faq() {
   return (
-    <div className='flex items-center  flex-col gap-4 mt-[8%] justify-center text-center py-8'>    
-        <h1 className='font-bold text-[#FB9B02]'>READ OUR FAQ</h1>
-        <p className='lg:w-[50%] texy-center justify-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <div className='flex items-center  flex-col gap-4 mt-[5%] justify-center text-center py-7  '>    
+        <h1 className='font-bold text-[#FB9B02] text-[30px]'>READ OUR FAQ</h1>
+        <p className='lg:w-[35vw] capitalize text-center justify-center text-[14px] text-[#00000099] font-poppins sm:w-[85vw]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
          Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet
           consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue.
         </p>
-         <button className='bg-[#FB9B02] p-4 lg:w-[15%] font-bold rounded-xl text-white'>Click Here</button>    
+        <div>
+         <button className='bg-[#FB9B02] px-8 py-3  font-semibold rounded-xl text-white border-[1px] border-[#FB9B02] hover:text-[#FB9B02] hover:bg-[white] transition duration-300'>Click Here</button>
+  </div>
   </div>
   )
 }

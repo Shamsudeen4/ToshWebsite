@@ -1,17 +1,17 @@
-import React from 'react'
 
+
+
+import React from 'react'
+import blurr from '../Images/homepage/Ellipse 2 (2).png'
+
+import '../LandingPage/Cfirst.css'
 function Home() {
   return (
-    <div className='bg-[#FEF3C780] flex items-center mt-[10%] justify-center'>
-    <div className='w-[40%] text-center py-[25px] gap-3 flex flex-col'>
-      <h1 className='lg:text-[40px] font-bold'>We Believe In Innovation And Creativities</h1>
-      <div className='flex gap-4 items-center justify-center'>
-        <a href="/">home</a>
-            <h6> {'>'} </h6>
-        <a href="/">courses</a>
-      </div>      
+    <div className='back flex  py-32 flex-col gap-4 sm:gap-1 items-center justify-center bg-[#FEF3C780]'>
+      <h1 className='font-raleway font-bold text-[45px] sm:text-[35px] lg:w-[35vw] text-center'>We Believe In Innovation And Creativities</h1>
+      <h4 className=' font-poppins text-[18px]'>Home {'>'} Services</h4>
+      <img src={blurr} className='absolute right-0 top-[160px] w-96' alt="" />
     </div>
-  </div>
   )
 }
 

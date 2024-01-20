@@ -25,7 +25,7 @@ function Sfourth() {
 
         </div>
       </div>
-      <div className='2xl:hidden flex flex-col gap-[30px]'>
+      <div className='lg:hidden flex flex-col gap-[30px]'>
         <div className='flex gap-[20px]'>
             <img className='w-[36vw] h-[32vw]' src={f} alt="" />
             <img className='w-[36vw] h-[32vw]' src={s} alt="" />

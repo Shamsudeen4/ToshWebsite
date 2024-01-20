@@ -2,15 +2,13 @@ import React from 'react'
 
 function JoinUs() {
   return (
-    <div className='flex items-center justify-center py-8'>
-      <div className='bg-[#C12DC1] lg:w-[60%] py-8 rounded-xl text-center lg:flex-col gap-5 lg:flex'>
-        <h1 className='font-bold text-white'>LIKE TO JOIN US?</h1>
-        <p className='lg:w-[50%] text-white justify-center lg:relative left-[25%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-           Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet.
-          </p>
-          <button className='bg-white p-4 lg:w-[15%] lg:relative left-[40%] font-bold rounded-xl text-[#C12DC1]'>Apply Now</button>
-      </div>
+    <div className='  flex flex-col justify-center items-center w-[100%] lg:h-[50vh] sm:h-[40vh] bg-[white]'>
+    <div className=' flex flex-col gap-6 items-center justify-center bg-[#C12DC1] py-[50px] px-[300px] rounded-[20px] sm:rounded-none sm:px-9 text-center'>
+      <h1 className='font-raleway text-[white] text-[30px] font-bold sm:text-[25px] uppercase'>lIKE TO JOIN US?</h1>
+      <h2 className='text-[14px] text-[white] w-[31vw] sm:w-[82vw]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue. Lorem ipsum dolor sit amet.</h2>
+      <button className='bg-[white] px-[30px] py-[10px]  text-[#C12DC1] rounded-[10px] border-[2px] border-solid border-[#ffffff] transition duration-300 hover:text-[white] hover:bg-transparent '>Apply Now</button>
     </div>
+  </div>
   )
 }
 

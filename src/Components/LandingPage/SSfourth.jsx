@@ -8,7 +8,7 @@ import se from '../Images/servicepage/Rectangle 105.png'
 function Sfourth() {
   return (
     <div className=''>
-    <div className='flex flex-col gap-[30px] 2xl:my-12 w-[100%] 2xl:h-[100vh] sm:py-12  items-center justify-center bg-[white]'>
+    <div className='flex flex-col gap-[30px] lg:my-12 w-[100%] lg:h-[100vh] sm:py-12  items-center justify-center bg-[white]'>
       <div>
         <h1 className='text-[50px] leading-[60px] capitalize font-raleway font-bold w-[45vw] text-center sm:text-[35px] sm:w-[80vw]'>Standard Portfolio</h1>
       </div>
@@ -32,7 +32,7 @@ function Sfourth() {
 
         </div>
       </div>
-      <div className='2xl:hidden flex flex-col gap-[30px]'>
+      <div className='lg:hidden flex flex-col gap-[30px]'>
         <div className='flex gap-[20px]'>
             <img className='w-[36vw] h-[32vw]' src={f} alt="" />
             <img className='w-[36vw] h-[32vw]' src={s} alt="" />

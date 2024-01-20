@@ -9,11 +9,11 @@ function Cfirst() {
       <h1 className='font-raleway font-bold text-[45px]'>Blog Post</h1>
       <h4 className=' font-poppins text-[18px] text-[#00000080] '>Home {'>'} Blog</h4>
       </div>
-      <div className='flex bg-[white] px-[20px] py-[20px] gap-2 rounded-[15px]'>
+      <div className='flex bg-[white] px-[20px] py-[20px] gap-2 rounded-[15px] items-center'>
         <img src={slogo} alt="" />
-         <input className='h-[3vh] w-[20vw] sm:w-[60vw]' type="text" placeholder='Search Blog' />   
+         <input className='h-[5vh] outline-none w-[20vw] sm:w-[60vw]' type="text" placeholder='Search Blog' />   
       </div>
-      <img src={blurr} className='absolute right-0 -top-2 w-96' alt="" />
+      <img src={blurr} className='absolute right-0 top-[90px] w-96 z' alt="" />
     </div>
   )
 }

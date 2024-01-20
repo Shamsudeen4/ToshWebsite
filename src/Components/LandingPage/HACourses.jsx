@@ -10,8 +10,8 @@ import fiftab from '../Images/homepage/fiftab.png'
 import sstab from '../Images/homepage/sstab.png'
 function HACourses() {
   return (
-    <div className='bg-[white] justify-center flex flex-col w-[100%] 2xl:h-[200vh]   items-center'>
-    <div className=' flex flex-col gap-20  sm:gap-12 items-start justify-center 2xl:m-44 sm:m-12'> 
+    <div className='bg-[white] justify-center flex flex-col w-[100%] lg:h-[200vh]   items-center'>
+    <div className=' flex flex-col gap-20  sm:gap-12 items-start justify-center lg:m-44 sm:m-12'> 
       <div className='flex flex-col gap-3'>
         <h3 className='text-[#FB9B02] font-raleway font-semibold text-[20px]'>Courses</h3>
         <h1 className='text-[40px] font-raleway font-semibold sm:text-[27px]'>Available Courses</h1>

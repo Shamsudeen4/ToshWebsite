@@ -7,7 +7,7 @@ import thh from '../Images/homepage/5.png'
 import thhh from '../Images/homepage/6.png'
 function Blogexp() {
   return (
-    <div className='flex flex-col items-center justify-center 2xl:h-[140vh] w-[100%] sm:py-12'>
+    <div className='flex flex-col items-center justify-center  lg:h-[170vh] w-[100%] sm:py-12'>
       <div className='bg-[white] flex flex-col gap-[60px] items-center justify-center'> 
         <div className='flex justify-around gap-[330px] items-center sm:flex-col sm:gap-5'>
             <div>
@@ -17,28 +17,39 @@ function Blogexp() {
             <button className='
             border-[1px] 
             border-solid 
-            border-[#0000001A] 
+            border-[#FB9B02] 
             px-[30px] py-[10px] 
             rounded-[15px]
+            bg-[#FB9B02]
+            text-[white]
             '>Popular</button>
             <button className='
             border-[1px] 
             border-solid 
             border-[#0000001A] 
             px-[30px] py-[10px] 
-            rounded-[15px]'>Recent</button>
+            rounded-[15px]
+            hover:border-[#FB9B02]
+            hover:bg-[#FB9B02]
+            hover:text-[white]
+            transition duration-300
+            '>Recent</button>
             <button className='
-            border-[1px] 
-            border-solid 
-            border-[#0000001A] 
-            px-[30px] py-[10px] 
-            rounded-[15px]'>Post</button>
+           border-[1px] 
+           border-solid 
+           border-[#0000001A] 
+           px-[30px] py-[10px] 
+           rounded-[15px]
+           hover:border-[#FB9B02]
+           hover:bg-[#FB9B02]
+           hover:text-[white]
+           transition duration-300'>Post</button>
             </div>
         </div>
         <div className='sm:hidden flex flex-col gap-[50px]'>
-            <div className='flex gap-[50px]'>
-                <div className='flex flex-col gap-[15px]'>
-                    <img className='w-[18vw] h-[13vw]' src={st} alt="" />
+            <div className='flex gap-[150px]'>
+              <a href="/blogs">  <div className='flex flex-col gap-[15px]'>
+                    <img className='w-[18vw] h-[13vw] hover:scale-105 transition duration-500' src={st} alt="" />
                     <h2 
                     className=' 
                     font-raleway 
@@ -63,9 +74,9 @@ function Blogexp() {
                         debate “will AI replace designers” 
                         let’s focus on something practical.
                     </h4>
-                </div>
-                <div className='flex flex-col gap-[15px]'>
-                    <img className='w-[18vw] h-[13vw]' src={nd} alt="" />
+                </div></a>
+                <a href="/blogs"><div className='flex flex-col gap-[15px]'>
+                    <img className='w-[18vw] h-[13vw] hover:scale-105 transition duration-500' src={nd} alt="" />
                     <h2
                     className=' 
                     font-raleway 
@@ -87,9 +98,10 @@ function Blogexp() {
                         article, we will tell you what mistakes 
                         many of them make when creating user 
                         interface design.
-                    </h4></div>
+                    </h4></div></a>
+                    <a href="/blogs">
                 <div className='flex flex-col gap-[15px]'>
-                    <img className='w-[18vw] h-[13vw]' src={rd} alt="" />
+                    <img className='w-[18vw] h-[13vw] hover:scale-105 transition duration-500' src={rd} alt="" />
                     <h2 
                     className=' 
                     font-raleway 
@@ -111,10 +123,13 @@ function Blogexp() {
                         years. I can’t imagine a life without
                     </h4>
                 </div>
+                </a>
             </div>
-            <div className='flex  gap-[50px]'>
+           
+            <div className='flex  gap-[150px]'>
+            <a href="/blogs">
                 <div className='flex flex-col gap-[15px]'>
-                    <img className='w-[18vw] h-[13vw]' src={th} alt="" />
+                    <img className='w-[18vw] h-[13vw] hover:scale-105 transition duration-500' src={th} alt="" />
                     <h2 
                     className=' 
                     font-raleway 
@@ -135,9 +150,10 @@ function Blogexp() {
                         products across our devices 
                         this year.
                     </h4>
-                    </div>
+                    </div></a>
+                    <a href="/blogs">
                 <div className='flex flex-col gap-[15px]'>
-                    <img className='w-[18vw] h-[13vw]' src={thh} alt="" />
+                    <img className='w-[18vw] h-[13vw] hover:scale-105 transition duration-500' src={thh} alt="" />
                     <h2
                     className=' 
                     font-raleway 
@@ -156,9 +172,10 @@ function Blogexp() {
                         skills — My job title recently 
                         changed to Senior Product Designer
                     </h4>
-                </div>
+                </div></a>
+                <a href="/blogs">
                 <div className='flex flex-col gap-[15px]'>
-                    <img className='w-[18vw] h-[13vw]' src={thhh} alt="" />
+                    <img className='w-[18vw] h-[13vw] hover:scale-105 transition duration-500' src={thhh} alt="" />
                     <h2
                     className=' 
                     font-raleway 
@@ -180,6 +197,7 @@ function Blogexp() {
                         who never works out is told to hit
                     </h4>
                 </div>
+                </a>
             </div>
         </div>
         
@@ -192,7 +210,7 @@ function Blogexp() {
         
         
         
-        <div className='2xl:hidden flex flex-col gap-[50px]'>
+        <div className='lg:hidden flex flex-col gap-[50px]'>
             <div className='flex gap-[20px]'>
                 <div className='flex flex-col gap-[15px]'>
                     <img className='w-[18vw] h-[13vw] sm:w-[40vw] sm:h-[33vw]' src={st} alt="" />

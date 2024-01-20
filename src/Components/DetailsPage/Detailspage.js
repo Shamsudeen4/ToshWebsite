@@ -9,7 +9,7 @@ import Footer from '../Footer'
 function Detailspage() {
   return (
     <div>
-        <NavBar/>
+        <NavBar courses="active"/>
         <Home/>
         <Course/>
         <Learning/>

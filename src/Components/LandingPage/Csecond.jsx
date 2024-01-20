@@ -5,11 +5,11 @@ import rd from '../Images/aboutpage/Group 20.png'
 import th from '../Images/aboutpage/Group 21.png' 
 function Csecond() {
   return (
-    <div className='flex flex-col gap-[60px] 2xl:p-44 sm:p-10 2xl:h-[120vh] w-[100%] justify-center '>
+    <div className='flex flex-col gap-[60px] lg:p-44 sm:p-10 lg:h-[120vh] w-[100%] justify-center '>
       <div className='flex flex-col gap-3  sm:items-start'>
         <h3 className=' font-raleway text-[20px] font-semibold text-[#FB9B02]'>Benefits</h3>
-        <h1 className='font-raleway font-semibold text-[25px] sm:w-[70vw] 2xl:w-[34vw] leading-10 sm:leading-8 '>Be Among The Tech Maker Working Toward Innovations</h1>
-        <h4 className='2xl:w-[38vw] sm:w-[75vw] text-[14px] capitalize font-poppins'>
+        <h1 className='font-raleway font-semibold text-[25px] sm:w-[70vw] lg:w-[34vw] leading-10 sm:leading-8 '>Be Among The Tech Maker Working Toward Innovations</h1>
+        <h4 className='lg:w-[38vw] sm:w-[75vw] text-[14px] capitalize font-poppins'>
           Lorem ipsum dolor sit amet, 
             consectetur adipiscing elit. 
             Eget aenean accumsan bibendum 
